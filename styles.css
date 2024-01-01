@@ -1,0 +1,634 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  height: 100vh;
+}
+
+.event {
+  scroll-snap-align: start;
+}
+
+.cricket-body {
+  position: relative;
+  background-image: url("./assets/Cricket/1x/Asset 9.png"),
+    /* Top image */ url("./assets/Cricket/1x/Asset 10.png"); /*Bottom image*/
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: 100vw 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  z-index: -5;
+}
+
+.top-left-corner-cricket {
+  position: absolute;
+  height: 30vh; /* Adjust height as needed */
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.top-right-corner-cricket {
+  position: absolute;
+  height: 15vh; /* Adjust height as needed */
+  top: 0;
+  right: 0;
+  padding-top: 2vh;
+  padding-right: 2vh;
+  z-index: -1;
+}
+
+.bottom-left-corner-cricket {
+  position: absolute;
+  height: 40vh; /* Adjust height as needed */
+  bottom: 0vh;
+  left: 0;
+  z-index: -1;
+}
+
+.bottom-right-corner-cricket {
+  position: absolute;
+  height: 12.5vh; /* Adjust height as needed */
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.main-content-wedding-cricket {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  z-index: 3;
+  width: 80vw;
+  height: 100vh;
+  margin-top: 0vh;
+  margin-bottom: auto;
+}
+
+.to {
+  font-family: "Forum";
+  font-weight: lighter;
+}
+
+.motto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 20vh;
+}
+
+.smlogo {
+  width: auto;
+  height: 15vh;
+  margin-bottom: 0;
+}
+
+.tagline {
+  margin-top: 0;
+  font-family: "Forum";
+  font-weight: lighter;
+  font-size: 2vh;
+  letter-spacing: 0px;
+}
+
+.divider {
+  width: 40vw;
+  margin-bottom: 0;
+  max-width: 400px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.title {
+  margin-bottom: 1vh;
+  font-family: "Lobster Two", cursive;
+  font-weight: lighter;
+  font-size: 6vh;
+  margin-top: 1vh;
+}
+
+.subtitle {
+  margin-top: 0;
+  font-family: "Forum";
+  letter-spacing: 6.5px;
+  margin-bottom: 1vh;
+  font-size: 2vh;
+}
+
+.timings {
+  margin-top: 0;
+  margin-bottom: 1vh;
+  font-family: "Forum";
+  font-weight: lighter;
+  font-size: 2.5vh;
+}
+
+.snacks {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "Forum";
+  font-weight: lighter;
+  font-size: 2.5vh;
+}
+
+.venue {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.venue-title {
+  margin-bottom: 0vh;
+  margin-top: 1vh;
+  font-family: "Forum";
+  font-weight: lighter;
+  font-size: 2vh;
+  letter-spacing: 2px;
+}
+
+.location {
+  margin-top: 0;
+  font-family: "Lobster Two", cursive;
+  font-size: 3.5vh;
+  margin-bottom: 0;
+}
+
+.dresscode {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  padding-bottom: 20vh;
+}
+
+.pujan-body .dresscode,
+.musical-body .dresscode {
+  padding-bottom: 0;
+}
+
+.dresscode-title {
+  margin-bottom: 0vh;
+  font-family: "Forum";
+  font-weight: lighter;
+  font-size: 2vh;
+  letter-spacing: 2px;
+  margin-top: 1vh;
+}
+
+.dresscode-text {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "Lobster Two", cursive;
+  font-size: 3.5vh;
+}
+
+.dresscode-examples {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "Lobster Two", cursive;
+  font-size: 2vh;
+  font-weight: 100;
+}
+
+.valet {
+  font-family: "Forum";
+  font-weight: lighter;
+  font-size: 2vh;
+  letter-spacing: 2px;
+}
+
+.musical-body {
+  position: relative;
+  background-image: url("./assets/Musical Night/1x/Asset 9.png"),
+    url("./assets/Musical Night/1x/Asset 10.png"),
+    /* Top image */ url("./assets/Musical Night/1x/Asset 11.png"); /*Bottom image*/
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: 100vw 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  z-index: -5;
+}
+
+.top-left-corner-musical {
+  position: absolute;
+  height: 80vh; /* Adjust height as needed */
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.top-right-corner-musical {
+  position: absolute;
+  height: 15vh; /* Adjust height as needed */
+  top: 0;
+  right: 0;
+  padding-top: 2vh;
+  padding-right: 2vh;
+  z-index: -1;
+}
+
+.bottom-left-corner-musical {
+  position: absolute;
+  width: 100%; /* Adjust height as needed */
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.bottom-right-corner-musical {
+  position: absolute;
+  height: 30vh; /* Adjust height as needed */
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.main-content-wedding-musical {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  z-index: 3;
+  width: 80vw;
+  height: 100vh;
+  margin-top: 0vh;
+  margin-bottom: auto;
+}
+
+.music-player-image {
+  width: 50vw;
+  margin-top: 2vh;
+  max-width: 300px;
+}
+
+.pujan-body {
+  position: relative;
+  background-image: url("./assets/Pujan/1x/Asset\ 9.png"),
+    /* Top image */ url("./assets/Pujan/1x/Asset\ 10.png"); /*Bottom image*/
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: 100vw 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  z-index: -5;
+}
+
+.top-left-corner-pujan {
+  position: absolute;
+  height: 30vh; /* Adjust height as needed */
+  top: 15vh;
+  left: 4vw;
+  z-index: -1;
+}
+
+.top-right-corner-pujan {
+  position: absolute;
+  height: 15vh; /* Adjust height as needed */
+  top: 0;
+  right: 0;
+  padding-top: 2vh;
+  padding-right: 2vh;
+  z-index: -1;
+}
+
+.bottom-left-corner-pujan {
+  position: absolute;
+  height: 45vh; /* Adjust height as needed */
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.bottom-right-corner-pujan {
+  position: absolute;
+  height: 25vh; /* Adjust height as needed */
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.main-content-wedding-pujan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  z-index: 3;
+  width: 80vw;
+  height: 100vh;
+  margin-top: 0vh;
+  margin-bottom: auto;
+}
+
+.messagetext {
+  font-family: "Lobster Two";
+  font-weight: lighter;
+  font-size: 2vh;
+  letter-spacing: 0.75px;
+  margin: 0;
+}
+
+.message {
+  margin-top: 5vh;
+  padding-bottom: 20vh;
+}
+
+.haldi-body {
+  position: relative;
+  background-image: url("./assets/Haldi/1x/Asset\ 10.png"),
+    /* Top image */ url("./assets/Haldi/1x/Asset\ 11.png"); /*Bottom image*/
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: 100vw 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: #600000;
+  z-index: -5;
+}
+
+.top-left-corner-haldi {
+  position: absolute;
+  height: 45vh; /* Adjust height as needed */
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.top-right-corner-haldi {
+  position: absolute;
+  height: 15vh; /* Adjust height as needed */
+  top: 0;
+  right: 0;
+  padding-top: 2vh;
+  padding-right: 2vh;
+  z-index: -1;
+}
+
+.bottom-left-corner-haldi {
+  position: absolute;
+  height: 30vh; /* Adjust height as needed */
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.bottom-right-corner-haldi {
+  position: absolute;
+  height: 20vh; /* Adjust height as needed */
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.main-content-wedding-haldi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  color: #600000;
+  z-index: 3;
+  width: 67.5vw;
+  height: 94vh;
+  margin-top: 0vh;
+  margin-bottom: auto;
+}
+
+.sangeet-body {
+  position: relative;
+  background-image: url("./assets/Sangeet/1x/Asset 11.png"),
+    /* Top image */ url("./assets/Sangeet/1x/Asset 12.png"); /*Bottom image*/
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: 100vw 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  z-index: -5;
+  color: white;
+}
+
+.top-left-corner-sangeet {
+  position: absolute;
+  height: 40vh; /* Adjust height as needed */
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.top-left-corner-sangeet-2 {
+  position: absolute;
+  height: 20vh; /* Adjust height as needed */
+  top: 0;
+  left: 5vh;
+  z-index: -1;
+}
+
+.top-right-corner-sangeet {
+  position: absolute;
+  height: 15vh; /* Adjust height as needed */
+  top: 0;
+  right: 0;
+  padding-top: 2vh;
+  padding-right: 2vh;
+  z-index: -1;
+}
+
+.bottom-left-corner-sangeet {
+  position: absolute;
+  height: 40vh; /* Adjust height as needed */
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.bottom-right-corner-sangeet {
+  position: absolute;
+  height: 17.5vh; /* Adjust height as needed */
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.main-content-wedding-sangeet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  z-index: 3;
+  width: 80vw;
+  height: 94vh;
+  margin-top: 0vh;
+  margin-bottom: auto;
+}
+
+.wedding-body {
+  position: relative;
+  background-image: url("./assets/1x/Asset 8.png"),
+    /* Top image */ url("./assets/1x/Asset 9.png"); /*Bottom image*/
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: 100vw 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  z-index: -5;
+  color: white;
+}
+
+.top-left-corner-wedding {
+  position: absolute;
+  height: 80vh; /* Adjust height as needed */
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.top-right-corner-wedding {
+  position: absolute;
+  height: 15vh; /* Adjust height as needed */
+  top: 0;
+  right: 0;
+  padding-top: 2vh;
+  padding-right: 2vh;
+  z-index: -1;
+}
+
+.bottom-left-corner-wedding {
+  position: absolute;
+  height: 45vh; /* Adjust height as needed */
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.bottom-right-corner-wedding {
+  position: absolute;
+  height: 30vh; /* Adjust height as needed */
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.main-content-wedding-wedding {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  z-index: 3;
+  width: 67.5vw;
+  height: 94vh;
+  margin-top: 0vh;
+  margin-bottom: auto;
+}
+
+.reception-body {
+  position: relative;
+  background-image: url("./assets/Reception/1x/Asset 2.png"),
+    /* Top image */ url("./assets/Reception/1x/Asset 1.png"); /*Bottom image*/
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: 100vw 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: white;
+  z-index: -5;
+}
+
+.top-left-corner-reception {
+  position: absolute;
+  height: 80vh; /* Adjust height as needed */
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.top-right-corner-reception {
+  position: absolute;
+  height: 15vh; /* Adjust height as needed */
+  top: 0;
+  right: 0;
+  padding-top: 2vh;
+  padding-right: 2vh;
+  z-index: -1;
+}
+
+.bottom-left-corner-reception {
+  position: absolute;
+  height: 30vh; /* Adjust height as needed */
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.bottom-right-corner-reception {
+  position: absolute;
+  height: 30vh; /* Adjust height as needed */
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.main-content-wedding-reception {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  z-index: 3;
+  width: 67.5vw;
+  height: 94vh;
+  margin-top: 0vh;
+  margin-bottom: auto;
+}
