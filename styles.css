@@ -1,6 +1,13 @@
+:root {
+  --doc-height: 100%;
+}
+
+html,
 body {
-  margin: 0;
   padding: 0;
+  margin: 0;
+  height: 100vh; /* fallback for Js load */
+  height: var(--doc-height);
 }
 
 .container {
@@ -684,4 +691,3 @@ body {
   margin-top: 0vh;
   margin-bottom: auto;
 }
-
